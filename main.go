@@ -71,6 +71,7 @@ func main() {
 		panic(err)
 		return
 	}
+	//write something to test the git
 
 	// Use the IndexExists service to check if a specified index exists.
 	exists, err := client.IndexExists(INDEX).Do()
